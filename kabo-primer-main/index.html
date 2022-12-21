@@ -1,0 +1,665 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TDPU - Nizomiy nomidagi Toshkent davlat pedagogika universiteti</title>
+    <!-- favicon -->
+    <link rel="shortcut icon" href="data/img/favicon.png" type="image/x-icon">
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+
+    <!-- styles -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="data/css/animate.css" media="all" />
+    <link rel="stylesheet" href="data/css/swiper.min.css">
+    <link rel="stylesheet" href="data/css/style.css">
+
+</head>
+
+<body>
+    <div class="wrapper">
+
+        <nav class="navigation">
+            <a href="index.html" class="navigation_logo"><img src="data/img/logo-full.png" alt="logo"></a>
+            <button class="menu_btn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="navigation_list">
+                <li class="navigation_items">
+                    <a href="about.html" class="navigation_link">
+                        Universitet haqida
+                    </a>
+                    <div class="navigation_dropdown">
+                        <ul>
+                            <li>
+                                <a href="kafedra.html">Kafedra</a>
+                            </li>
+                            <li>
+                                <a href="markaz.html" >Markaz va bo'limlar</a>
+                            </li>
+                            <li>
+                                <a href="fakultetlar.html" target="_blank">Fakultetlar</a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="navigation_items">
+                    <a href="news.html" class="navigation_link" target="_blank">
+                        Yangiliklar
+                    </a>
+                </li>
+                <li class="navigation_items">
+                    <a href="vedio.html" class="navigation_link">
+                        vedio
+                    </a>
+                </li>
+                <li class="navigation_items">
+                    <a href="contacts.html" class="navigation_link">Bog'lanish</a>
+                </li>
+                <li class="navigation_items">
+                    <a href="talim.html" class="navigation_link">Ta'lim</a>
+                </li>
+                <li class="navigation_items">
+                    <a href="login.html" class="navigation_link">Login</a>
+                </li>
+                <li class="navigation_items">
+                    <span href="" class="navigation_link lang_link">
+                        UZ <span>&#9660;</span>
+                    </span>
+                    <div class="navigation_dropdown lang_dropdown">
+                        <ul>
+                            <li>
+                                <a href="">UZ</a>
+                            </li>
+                            <li>
+                                <a href="">EN</a>
+                            </li>
+                            <li>
+                                <a href="">RU</a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+        <!-- responsive mobile menu -->
+        <div class="mobile_menu">
+            <ul class="link_list">
+                <li>
+                    <a href="#demo" data-toggle="collapse">Universitet haqida</a>
+                    <!-- <div id="demo" class="collapse">
+                        <div class="collapse_list">
+                            <a href="kafedra.html">Kafedra</a>
+                            <a href="markaz.html">Markaz va bo'limlar</a>
+                            <a href="fakultetlar.html" target="_blank">Fakultetlar</a>
+                        </div>
+                    </div> -->
+                </li>
+                <li>
+                    <a href="kafedra.html">Kafedra</a>
+                </li>
+                <li>
+                    <a href="markaz.html">Markaz va bo'limlar</a>
+                </li>
+                <li>
+                    <a href="fakultetlar.html" target="_blank">Fakultetlar</a>
+                </li>
+                <li>
+                    <a href="news.html" target="_blank">
+                        Yangiliklar
+                    </a>
+                </li>
+                <li>
+                    <a href="vedio.html" class="navigation_link">
+                        vedio
+                    </a>
+                </li>
+                <li>
+                    <a href="contacts.html" class="navigation_link">Bog'lanish</a>
+                </li>
+                <li>
+                    <a href="talim.html" class="navigation_link">Ta'lim</a>
+                </li>
+                <li>
+                    <a href="login.html" class="navigation__link">Login</a>
+                </li>
+            </ul>
+            <p>Til tanlash:</p>
+            <ul class="lang_list">
+                <li><a href="#link" class="active">Uz</a></li>
+                <li><a href="#link" >Ru</a></li>
+                <li><a href="#link">En</a></li>
+            </ul>
+            <ul class="social_icons">
+                <li>
+                    <a href="https://www.facebook.com/nizomiy.tdpu/" target="_blank">
+                        <img src="data/img/facebook-w.svg" alt="">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://t.me/Nizomiy1" target="_blank">
+                        <img src="data/img/telegram-w.svg" alt="">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/nizomiy.tdpu/" target="_blank">
+                        <img src="data/img/instagram-w.svg" alt="">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.whatsapp.com/nizomiy.tdpu/" target="_blank">
+                        <img src="data/img/whatsapp-w.svg" alt="">
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <header class="header_promo">
+            <div class="header_promo_background" style="background-image: url(data/img/promo.jpg)"></div>
+            <div class="video_overlay"></div>
+            <div class="header_promo_video">
+                <video autoplay loop muted playsinline webkit-playsinline poster="#" preload="none"
+                    src="data/promo/promo_header.mp4"></video>
+            </div>
+            <div class="header_promo_title">
+                <h1><span>TDPU</span> Nizomiy nomidagi <br> Toshkent davlat pedagogika <br> universiteti</h1>
+                <a href="about.html" class="active-btn"><span>Batafsil Tanishish</span></a>
+            </div>
+        </header>
+
+        <div class="page">
+
+            <!--  -->
+            <section id="about_section">
+            <div class="container">
+                <div class="section_content">
+                    <div class="about_col">
+                        <div class="left_col first_animation invisible">
+                            <div class="left_in">
+                                <div class="about_col_image" style="background-image: url(data/img/about-img.jpg)">
+                                </div>
+                                <div class="about_col_photo_text">
+                                    <small>
+                                        Nizomiy nomidagi <br> Toshkent davlat pedagogika universiteti
+                                    </small>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="right_col second_animation invisible pt-4">
+                            <div class="right_in">
+                                <div class="subtitle">Universitet haqida</div>
+                                <div class="description pl_100 line_before">
+                                    Nizomiy nomidagi Toshkent davlat pedagogika universiteti respublikamizdagi yirik ilmiy-ma`rifiy markazlardan biri bo`lib, o`z boy tarixi va shakllangan ijobiy an`analariga ega. Universitetning yuqori malakali ilmiy-pedagoglar jamoasi talabalarga sifatli bilimlar berishmoqda. O'quv binolari, laboratoriyalar, axborot resurs markazi, elektron biblioteka, axborot texnologiyalari markazi, tipografiya, sport kompleksi, muzey, malaka oshirish va qayta tayyorlash markazlari, o`quv-sog`lomlashtirish lageri, talabalar turar joylari va oshxonalar talabalar va professor-o`qituvchilar ixtiyorida.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="statistics">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <div class="stat_items first_animation invisible">
+                                        <span>12000</span>
+                                        <small>TALABA</small>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="stat_items third_animation invisible">
+                                        <span>9</span>
+                                        <small>FAKULTET</small>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="stat_items fourth_animation invisible">
+                                        <span>12734</span>
+                                        <small>QO'LLANMA</small>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="stat_items second_animation invisible">
+                                        <span>467</span>
+                                        <small>PEDAGOG</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </section>
+
+            <section class="advantage_section">
+                <div class="container">
+                    <div class="title advantage__title" 
+                    style="text-align: center;">
+                        <a href="markaz.html" 
+                            title="Markaz va Bo'limlar o'tish ">
+                            Markaz va Bo'limlar
+                        </a>
+                    </div>
+    
+                    <div class="advantage__cards" >
+                        <div class="row mt-lg-5 mt-2 advantage__cardss"></div>
+                        <div class="row mt-lg-4 mt-2 advantage__cardss"></div>
+                    </div>
+    
+                    <div class="advantage__link">
+                        <a href="markaz.html">Batafsil ma'lumotlar</a>
+                    </div>
+                </div>
+            </section>
+
+            <!-- services section -->
+            <section class="services">
+                <div class="container">
+                    <div class="section_content">
+                        <div class="title mb-0">
+                            <span>03</span>
+                            <small class="line_after">НАШИ Услуги</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="services_block_in">
+                    <a href="" style="background-image: url(data/img/wash.jpg);">
+                        <h4>
+                            <p class="line_after">Заказать</p>
+                            <span>
+                                Мойка окон и фасадов
+                            </span>
+                        </h4>
+                    </a>
+                    <a href="" style="background-image: url(data/img/sealing.jpg);">
+                        <h4>
+                            <p class="line_after">Заказать</p>
+                            <span>Герметизация швов</span>
+                        </h4>
+                    </a>
+                    <a href="" style="background-image: url(data/img/facad.jpg);">
+                        <h4>
+                            <p class="line_after">Заказать</p>
+                            <span> Фасадные работы</span>
+                        </h4>
+                    </a>
+                </div>
+            </section>
+
+            <!-- portfolio section -->
+            <section class="portfolio pb-0">
+                <div class="container">
+                    <div class="title">
+                        <span>04</span>
+                        <small class="line_after">НАШИ РАБОТЫ</small>
+                    </div>
+                </div>
+                <div id="mry-dynamic-content" class="transition-fade">
+                    <div class="mry-content-frame" id="scroll">
+
+                        <div class="swiper-container mry-main-slider">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+
+                                    <!-- project -->
+                                    <div class="mry-project-slider-item">
+                                        <div class="mry-project-frame mry-project-half">
+                                            <div class="mry-cover-frame">
+                                                <img class="mry-project-cover mry-position-right"
+                                                    src="data/img/about.jpg" alt="Project" data-swiper-parallax="500"
+                                                    data-swiper-parallax-scale="1.4">
+                                                <div class="mry-cover-overlay"></div>
+                                                <div class="mry-loading-curtain"></div>
+                                            </div>
+                                            <div class="mry-main-title-frame">
+                                                <div class="container">
+                                                    <div class="mry-main-title" data-swiper-parallax-x="30%"
+                                                        data-swiper-parallax-scale=".7" data-swiper-parallax-opacity="0"
+                                                        data-swiper-parallax-duration="1000">
+                                                        <small>Экстерьер</small>
+                                                        <span class="mry-main-title-frame__title">
+                                                            <a href="agro_bank.html">Agrobank</a>
+                                                        </span>
+                                                        <p>Остекление нового здания AgroBank расположенный<br /> в
+                                                            Шайхантахурском районе. Организация входной<br /> группы для
+                                                            доступа
+                                                            внутрь помещений.</p>
+                                                        <ul class="mry-main-title-frame__list">
+                                                            <li>
+                                                                <a href="agro_bank.html" class="active-btn">
+                                                                    <span>Подробнее</span>
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <span class="mry-main-title-frame__link">
+                                                                    <a href="works.html">Все проекты</a>
+                                                                </span>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- project end -->
+
+                                </div>
+                                <div class="swiper-slide">
+
+                                    <!-- project -->
+                                    <div class="mry-project-slider-item">
+                                        <div class="mry-project-frame mry-project-half">
+                                            <div class="mry-cover-frame">
+                                                <img class="mry-project-cover" src="data/img/about.jpg" alt="Project"
+                                                    data-swiper-parallax="500" data-swiper-parallax-scale="1.4">
+                                                <div class="mry-cover-overlay"></div>
+                                            </div>
+                                            <div class="mry-main-title-frame">
+                                                <div class="container">
+                                                    <div class="mry-main-title" data-swiper-parallax-x="30%"
+                                                        data-swiper-parallax-scale=".7" data-swiper-parallax-opacity="0"
+                                                        data-swiper-parallax-duration="1000">
+                                                        <small>Экстерьер</small>
+                                                        <span class="mry-main-title-frame__title">
+                                                            <a href="nestone.html">Nest one</a>
+                                                        </span>
+                                                        <p>Остекление нового здания NestOne расположенный<br /> в
+                                                            Шайхантахурском районе. Организация входной<br /> группы для
+                                                            доступа
+                                                            внутрь помещений.</p>
+                                                        <ul class="mry-main-title-frame__list">
+                                                            <li>
+                                                                <a href="nestone.html" class="active-btn">
+                                                                    <span>Подробнее</span>
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <span class="mry-main-title-frame__link">
+                                                                    <a href="works.html">Все проекты</a>
+                                                                </span>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- project end -->
+
+                                </div>
+                                <div class="swiper-slide">
+
+                                    <!-- project -->
+                                    <div class="mry-project-slider-item">
+                                        <div class="mry-project-frame mry-project-half">
+                                            <div class="mry-cover-frame">
+                                                <img class="mry-project-cover" src="data/img/about.jpg" alt="Project"
+                                                    data-swiper-parallax="500" data-swiper-parallax-scale="1.4">
+                                                <div class="mry-cover-overlay"></div>
+                                            </div>
+                                            <div class="mry-main-title-frame">
+                                                <div class="container">
+                                                    <div class="mry-main-title" data-swiper-parallax-x="30%"
+                                                        data-swiper-parallax-scale=".7" data-swiper-parallax-opacity="0"
+                                                        data-swiper-parallax-duration="1000">
+                                                        <small>Экстерьер</small>
+                                                        <span class="mry-main-title-frame__title">
+                                                            <a href="hilton.html">Hilton</a>
+                                                        </span>
+                                                        <p>Остекление Отеля Hilton Tashkent city. <br /> Организация
+                                                            входной
+                                                            группы для доступа внутрь<br /> помещений. группы для
+                                                            доступа
+                                                            внутрь
+                                                            помещений.</p>
+                                                        <ul class="mry-main-title-frame__list">
+                                                            <li>
+                                                                <a href="hilton.html" class="active-btn">
+                                                                    <span>Подробнее</span>
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <span class="mry-main-title-frame__link">
+                                                                    <a href="works.html">Все проекты</a>
+                                                                </span>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- project end -->
+
+                                </div>
+                                <div class="swiper-slide">
+
+                                    <!-- project -->
+                                    <div class="mry-project-slider-item">
+                                        <div class="mry-project-frame mry-project-half">
+                                            <div class="mry-cover-frame">
+                                                <img class="mry-project-cover" src="data/img/about.jpg" alt="Project"
+                                                    data-swiper-parallax="500" data-swiper-parallax-scale="1.4">
+                                                <div class="mry-cover-overlay"></div>
+                                            </div>
+                                            <div class="mry-main-title-frame">
+                                                <div class="container">
+                                                    <div class="mry-main-title" data-swiper-parallax-x="30%"
+                                                        data-swiper-parallax-scale=".7" data-swiper-parallax-opacity="0"
+                                                        data-swiper-parallax-duration="1000">
+                                                        <small>Экстерьер</small>
+                                                        <span class="mry-main-title-frame__title">
+                                                            <a href="congress_hall.html">Congress Hall</a>
+                                                        </span>
+                                                        <p>Остекление Конгресс-холла Tashkent city.</br> Организация
+                                                            входной
+                                                            группы для доступа</br> внутрь помещений. </p>
+                                                        <ul class="mry-main-title-frame__list">
+                                                            <li>
+                                                                <a href="congress_hall.html" class="active-btn">
+                                                                    <span>Подробнее</span>
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <span class="mry-main-title-frame__link">
+                                                                    <a href="works.html">Все проекты</a>
+                                                                </span>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- project end -->
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="mry-slider-pagination-frame">
+                            <div class="mry-slider-pagination"></div>
+                        </div>
+
+                        <div class="mry-slider-nav-panel">
+                            <div class="container">
+                                <div class="mry-slider-progress-bar-frame">
+                                    <div class="mry-slider-progress-bar">
+                                        <div class="mry-progress"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mry-slider-arrows">
+                                <div class="mry-label">Навигация по работам</div>
+                                <div class="mry-button-prev mry-magnetic-link">
+                                    <span class="mry-magnetic-object">Назад</span>
+                                </div>
+                                <div class="mry-button-next mry-magnetic-link">
+                                    <span class="mry-magnetic-object">Вперёд</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- news section -->
+            <section class="news">
+                <div class="container">
+                    <div class="section_content">
+                        <div class="title d-flex align-items-center justify-content-between">
+                            <div>
+                                <span>05</span>
+                                <small class="line_after">Новости</small>
+                            </div>
+                            <a href="" class="news_all_btn"> все Новости </a>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="news_item">
+                                    <a href="">
+                                        <div class="news_image">
+                                            <img src="data/img/about.jpg" alt="">
+                                        </div>
+                                        <div class="news_caption">
+                                            <p class="news_date"> 06 АВГУСТ, 2021 </p>
+                                            <h5>
+                                                AKFA Visitors Center – это один из первых центров для посетителей в
+                                                Узбекистане.
+                                            </h5>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="news_item">
+                                    <a href="">
+                                        <div class="news_image">
+                                            <img src="data/img/about.jpg" alt="">
+                                        </div>
+                                        <div class="news_caption">
+                                            <p class="news_date"> 06 АВГУСТ, 2021 </p>
+                                            <h5>
+                                                Объявлены победители хакатон URBAN.TECH UZBEKISTAN 2021
+                                            </h5>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="news_item">
+                                    <a href="">
+                                        <div class="news_image">
+                                            <img src="data/img/about.jpg" alt="">
+                                        </div>
+                                        <div class="news_caption">
+                                            <p class="news_date"> 06 АВГУСТ, 2021 </p>
+                                            <h5>
+                                                MAKON Marketing Forum 2021 прошел в Ташкенте
+                                            </h5>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+
+        <div class="footer">
+            <div class="footer_inner">
+                <div class="container">
+                    <div class="row footer_top">
+                        <div class="col-md-3">
+                            <div class="footer_items">
+                                <div class="footer_title">
+                                    О компании
+                                </div>
+                                <div class="footer_content">
+                                    <p>За годы существования компания AKFA зарекомендовала себя как надежного и
+                                        ответственного производителя.</p>
+                                    <ul class="social_icons">
+                                        <li><a href=""><img src="data/img/facebook-w.svg" alt=""></a></li>
+                                        <li><a href=""><img src="data/img/telegram-w.svg" alt=""></a></li>
+                                        <li><a href=""><img src="data/img/instagram-w.svg" alt=""></a></li>
+                                        <li><a href=""><img src="data/img/whatsapp-w.svg" alt=""></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="footer_items">
+                                <div class="footer_items">
+                                    <div class="footer_title">
+                                        Услуги
+                                    </div>
+                                </div>
+                                <div class="footer_content">
+                                    <ul class="footer_links">
+                                        <li><a href="">Мойка окон и фасадов</a></li>
+                                        <li><a href="">Герметизация швов</a></li>
+                                        <li><a href="">Фасадные работы</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="footer_items">
+                                <div class="footer_items">
+                                    <div class="footer_title">
+                                        Полезные ссылки
+                                    </div>
+                                </div>
+                                <div class="footer_content">
+                                    <ul class="footer_links">
+                                        <li><a href="">О компании</a></li>
+                                        <li><a href="">Наши работы</a></li>
+                                        <li><a href="">Новости</a></li>
+                                        <li><a href="">Вакансии</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="footer_items">
+                                <div class="footer_items">
+                                    <div class="footer_title">
+                                        Контактные данные
+                                    </div>
+                                </div>
+                                <ul class="footer_contacts">
+                                    <li><a href="">г. Ташкент, ул. Катта-Хирмонтепа, 1</a></li>
+                                    <li><a href="">info@akfagroup.com</a></li>
+                                    <li><a href="">+998 71 203 00 00</a></li>
+                                    <li><a href="">Пн. - Сб.: 9:00 до 19:00</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- scripts -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="data/js/viewportchecker.js"></script>
+    <script type="text/javascript" src="data/js/swiper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="data/js/index.js"></script>
+    <script src="./data/js/newArr.js"></script>
+    <script src="./data/js/markaz_item.js"></script>
+
+</body>
+</html>
